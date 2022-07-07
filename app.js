@@ -4,8 +4,8 @@ import express from 'express'
 
 const app=express()
 
-const FLIPKART_URL="https://www.flipkart.com/apple-iphone-11-purple-128-gb/p/itmb7ca0b05522ff?pid=MOBFWQ6BEHFXGXGB&lid=LSTMOBFWQ6BEHFXGXGBMVHGLV&marketplace=FLIPKART&q=apple+iphone&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=4199741f-5a32-4b72-9e7f-fdc94257338b.MOBFWQ6BEHFXGXGB.SEARCH&ppt=hp&ppn=homepage&ssid=zefpppby5s0000001657192376398&qH=443e995752cbe75b"
-const EXEPECTED_AMOUNT=40000
+const FLIPKART_URL="https://www.flipkart.com/crocs-bayaband-bandana-print-men-blue-sandals/p/itm617eab3dd8908?pid=SNDFHX8YHGBHMSMG&lid=LSTSNDFHX8YHGBHMSMGIKA8VG&marketplace=FLIPKART&q=crocs+bandana+print&store=osp%2Fcil%2Fe83&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_11_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_11_na_na_na&fm=Search&iid=d6e4a131-77e5-477b-ba93-a979c9ec7df0.SNDFHX8YHGBHMSMG.SEARCH&ppt=sp&ppn=sp&ssid=76pzbzbhkg0000001657195781557&qH=a19545816e068fce"
+const EXEPECTED_AMOUNT=1500
 
 const checkFlikartPrize=async(url,expectedAmount)=>{
      var getHtml=async(url)=>{
