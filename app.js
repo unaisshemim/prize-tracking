@@ -55,7 +55,7 @@ const prize= await checkFlikartPrize(FLIPKART_URL,EXEPECTED_AMOUNT)
 app.get('/track',async(req,res)=>{
 try{
    console.log(prize)
-    res.send(prize)
+    res.send(JSON.stringify(prize))
     
     
 }catch(error){
